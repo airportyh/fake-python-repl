@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo poetry $@ >> $REPL_HOME/poetry.log
+echo done
