@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fake-python-repl"
+version = "0.1.0"
+description = ""
+authors = ["Toby Ho <toby@repl.it>"]
+readme = "README.md"
+packages = [{include = "fake_python_repl"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
